@@ -1,0 +1,36 @@
+<html>
+<head>
+
+<script src="jquery-1.8.0.min.js"></script>
+
+<style type="text/css">
+.close:hover{
+    cursor:pointer;
+}
+</style>
+</head>
+
+<body>
+Add Task:
+<input type="text" id="task-name">
+<input type="button" id="add-btn" value="Add">
+<input type="button" id="remove-btn" value="Remove Tasks">
+
+<div id="template" style="display:none;">
+<div>
+    <input type="checkbox" class="close"> 
+        &nbsp;
+    <span class="task"></span>
+</div>
+</div>
+    
+<div id="task-box">
+</div>    
+
+<script type="text/javascript" src="taskManager.js">
+
+</script>
+
+</body>
+
+</html>
