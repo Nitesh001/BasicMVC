@@ -1,3 +1,5 @@
+/*This is a single file, it contains model, view and controller.*/
+
 function taskModel(){
 var task="";
 var removeFlag=false;
